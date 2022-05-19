@@ -22,7 +22,7 @@ nav {
     display: flex;
     flex-direction: row;
     position: absolute;
-    justify-content: space-evenly;
+    justify-content:space-around;
     align-items: center;
     box-sizing: border-box;
     padding: 1rem 5%;
