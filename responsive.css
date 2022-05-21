@@ -7,12 +7,9 @@
         max-height:20% ;
     }
     .logo {
-        
         max-height: 3rem;
     }
-    
   }
-  
 
   @media (max-width: 800px) {
     html {
@@ -24,7 +21,6 @@
     .navigationBtn {
         font-size: 0.7rem;
     }
-    
   }
 
   @media (min-width: 1000px) {
@@ -37,6 +33,4 @@
         }
         .navigationBtn {
             font-size: 1rem;
-        }
-  }
-  
+        }}
