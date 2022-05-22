@@ -10,16 +10,28 @@
 </head>
 <body>
     <nav>
-        <button class="navigationBtn">Who we are ?</button>
+        <button class="navigationBtn"><a href="">Who we are ?</a></button>
         <img src="logoMain.png" alt="" class="logo">
-        <button class="navigationBtn">Take a table</button>
+        <button class="navigationBtn"><a href="#anchor1">Take a table</a> </button>
     </nav>
     <section class="main"><p class="title">The best tropical themed restaurent of all time !</p></section>
-    <section class="Whoweare"><h1>Work in progresse</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, dicta?</p></section>
-    <dependency>
-        <groupId>org.xerial</groupId>
-        <artifactId>sqlite-jdbc</artifactId>
-        <version>3.25.2</version>
-    </dependency>
+    <section class="Whoweare"></section>
+    <div id="anchor1"></div>
+    <section class="TakeTable">
+        <div class="reservationForm">
+            <p id="formTitle">Reserve a table here</p>
+                <label for="name">Name : </label><br>
+                <input type="text" name="name" id="nameRequest"><br>
+                <label for="lastName">Last-Name :</label><br>
+                <input type="text" name="lastName" id="lastNameRequest"><br>
+                <label for="email">Email :</label><br>
+                <input type="email" name="email" id="emailRequest"><br>
+                <label for="date">When :</label><br>
+                <input type="date" name="date" id="dateRequest" min=""><br>
+                <label for="number">Who much :</label><br>
+                <input type="number" name="number" id="number" min="1" max="10"><br>
+            <button id="submitButton">Submit</button>
+        </div>
+    </section>
 </body>
 </html>

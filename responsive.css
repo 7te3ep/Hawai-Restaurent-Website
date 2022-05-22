@@ -34,3 +34,17 @@
         .navigationBtn {
             font-size: 1rem;
         }}
+
+  @media (max-width: 500px) {
+    .TakeTable {
+      height: fit-content;
+      min-height: 50vh;
+    }
+    .reservationForm{
+      margin: 3rem auto;
+      opacity: 0.9;
+    }
+    .main {
+      height: 50vh;
+    }
+  }
