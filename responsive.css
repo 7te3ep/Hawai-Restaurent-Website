@@ -39,12 +39,20 @@
     .TakeTable {
       height: fit-content;
       min-height: 50vh;
-    }
+      justify-content: left;
+      background-position-x: 7rem;  }
     .reservationForm{
-      margin: 3rem auto;
+      position: relative;
+      margin: 3rem 0rem;
       opacity: 0.9;
+      border-top-left-radius: 0rem;
+      border-bottom-left-radius:0rem;
     }
     .main {
-      height: 50vh;
+      height: 75vh;
     }
+    .navigationBtn > a{
+      font-size: 0.8rem;
+    }
+
   }
